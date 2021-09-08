@@ -1,12 +1,14 @@
 a = int(input("geef een heel getal op"))
 b = int(input("geef nog een heel getal op"))
 
-max = a
-min = a
-
 if a > b:
-    print("a is het grootste getal:",max)
-elif a < b:
-    print("a is het kleinste getal:",min)
+    max = a
 else:
-    print("a en b zijn even groot")
+    max = b
+if a < b:    
+    min = a
+else:
+    min = b
+
+print("het minimum is:",min)
+print("het maximum is:",max)
