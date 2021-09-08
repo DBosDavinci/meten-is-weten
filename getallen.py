@@ -8,3 +8,5 @@ if a > b:
     print("a is het grootste getal:",max)
 elif a < b:
     print("a is het kleinste getal:",min)
+else:
+    print("a en b zijn even groot")
